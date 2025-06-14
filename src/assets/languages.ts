@@ -7,9 +7,9 @@ import cs from "@/assets/locales/cs.json";
 import da from "@/assets/locales/da.json";
 import deCh from "@/assets/locales/de-CH.json";
 import de from "@/assets/locales/de.json";
-import el from "@/assets/locales/el.json";
+import el from "@/assets/locales/el.json"; */
 import en from "@/assets/locales/en.json";
-import es from "@/assets/locales/es.json";
+/* import es from "@/assets/locales/es.json";
 import et from "@/assets/locales/et.json";
 import fa from "@/assets/locales/fa.json";
 import fi from "@/assets/locales/fi-FI.json";

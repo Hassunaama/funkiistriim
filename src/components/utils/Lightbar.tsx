@@ -424,9 +424,7 @@ export function Lightbar(props: { className?: string }) {
           </div> */}
           <img
             src="https://cdn.discordapp.com/attachments/1376934731668656250/1383505859849621514/1LMjAi.gif?ex=684f09bd&is=684db83d&hm=c7e41c003caa8a3d4b385168d65b13f43246ddcc59085cac5c9d7b15ad393866&" 
-            className="w-full h-full"
-          >
-          </img>
+            className="w-full h-full" />
         </div>
       </div>
     </div>

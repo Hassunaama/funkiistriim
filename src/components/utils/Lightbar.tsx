@@ -418,10 +418,11 @@ export function Lightbar(props: { className?: string }) {
     <div className="absolute inset-0 w-full h-[680px] overflow-hidden pointer-events-none -mt-64">
       <div className="max-w-screen w-full h-[680px] relative pt-64">
         <div className={props.className}>
-          <div className="lightbar">
+          {/* <div className="lightbar">
             <ParticlesCanvas />
             <div className="lightbar-visual" />
-          </div>
+          </div> */}
+          <img src="https://cdn.discordapp.com/attachments/1376934731668656250/1383505859849621514/1LMjAi.gif?ex=684f09bd&is=684db83d&hm=c7e41c003caa8a3d4b385168d65b13f43246ddcc59085cac5c9d7b15ad393866&" className="w-full h-full" ></img>
         </div>
       </div>
     </div>

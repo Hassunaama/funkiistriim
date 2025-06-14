@@ -51,7 +51,7 @@ import zh from "@/assets/locales/zh.json";
 
 export const locales = {
   en,
-  ca,
+  /*ca,
   "ca-ES": caVl,
   cs,
   da,
@@ -99,7 +99,7 @@ export const locales = {
   pa,
   ro,
   fi,
-  nv,
+  nv,*/
 };
 
 export type Locales = keyof typeof locales;

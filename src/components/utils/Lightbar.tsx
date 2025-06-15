@@ -422,7 +422,7 @@ export function Lightbar(props: { className?: string }) {
             <ParticlesCanvas />
             <div className="lightbar-visual" />
           </div> */}
-          <img src="/funky.gif" className="lightbar" />
+          <img src="/funky.gif" className="lightbar !h-full" />
         </div>
       </div>
     </div>

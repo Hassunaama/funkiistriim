@@ -15,7 +15,7 @@ export function BrandPill(props: {
   return (
     <div
       className={classNames(
-        "flex items-center space-x-2 rounded-full px-4 py-2 text-type-logo backdrop-blur-lg",
+        `flex items-center space-x-2 rounded-full ${isMobile && props.header ? "px-2 sm:px-4" : ""} py-2 text-type-logo backdrop-blur-lg`,
         props.backgroundClass ?? "bg-pill-background bg-opacity-50",
         props.clickable
           ? "transition-[transform,background-color] hover:scale-105 hover:bg-pill-backgroundHover hover:text-type-logo active:scale-95"

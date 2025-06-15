@@ -23,7 +23,9 @@ export function BrandPill(props: {
       )}
     >
       <Icon
-        className={isMobile && props.header ? "text-[2.5rem] sm:text-2xl" : "text-2xl"}
+        className={
+          isMobile && props.header ? "text-[2.5rem] sm:text-2xl" : "text-2xl"
+        }
         icon={Icons.LOGO}
       />
       <span

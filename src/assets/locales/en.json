@@ -207,11 +207,11 @@
       "disclaimerText": "Please note: funkiistriim does not host any files itself but instead only display's content from 3rd party providers. Legal issues should be taken up with them."
     },
     "links": {
-      "discord": "Discord",
+      "discord": "P-Stream Discord",
       "dmca": "DMCA",
       "github": "GitHub",
       "twitter": "Twitter",
-      "funding": "Support us"
+      "funding": "Support P-Stream"
     },
     "tagline": "Watch your favorite shows and movies for free with no ads ever! (っ'ヮ'c)"
   },
@@ -261,11 +261,11 @@
         ]
       },
       "empty": {
-        "default": "Welcome, find media to watch here!",
+        "default": "Welcome, to funkiistriim",
         "extra": [
           "There's nothing here :(",
-          "So empty...",
-          "Such emptiness.",
+          "y so empty :(((",
+          "Such emptiness. 😭",
           "Hi new user :3"
         ]
       },

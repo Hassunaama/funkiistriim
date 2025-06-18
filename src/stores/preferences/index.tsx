@@ -40,7 +40,7 @@ export const usePreferencesStore = create(
       enableThumbnails: false,
       enableAutoplay: true,
       enableSkipCredits: true,
-      enableDiscover: true,
+      enableDiscover: false,
       enableFeatured: false,
       enableDetailsModal: false,
       enableImageLogos: true,

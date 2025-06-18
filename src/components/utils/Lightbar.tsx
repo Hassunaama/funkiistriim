@@ -416,7 +416,7 @@ function ParticlesCanvas() {
 export function Lightbar(props: { className?: string }) {
   return (
     <div className="absolute inset-0 w-full h-[680px] overflow-hidden pointer-events-none">
-      <div className="max-w-screen w-full h-[680px] relative">
+      <div className={["max-w-screen w-full h-[680px] relative", props.className].join(" ")}>
         <div className={props.className}>
           {/* <div className="lightbar">
             <ParticlesCanvas />

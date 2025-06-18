@@ -415,14 +415,14 @@ function ParticlesCanvas() {
 
 export function Lightbar(props: { className?: string }) {
   return (
-    <div className="absolute inset-0 w-full h-[680px] overflow-hidden pointer-events-none -mt-64">
-      <div className="max-w-screen w-full h-[680px] relative pt-64">
+    <div className="absolute inset-0 w-full h-[680px] overflow-hidden pointer-events-none">
+      <div className="max-w-screen w-full h-[680px] relative">
         <div className={props.className}>
           {/* <div className="lightbar">
             <ParticlesCanvas />
             <div className="lightbar-visual" />
           </div> */}
-          <img src="/funky.gif" className="lightbar !h-full" />
+          <img src="/funky.gif" className="lightbar !h-full w-screen" />
         </div>
       </div>
     </div>
